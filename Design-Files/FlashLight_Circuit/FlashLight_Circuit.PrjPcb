@@ -71,7 +71,7 @@ AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
 AnnotateOrder=-1
-DoLibraryUpdate=1
+DoLibraryUpdate=0
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
@@ -113,6 +113,14 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JMPFACFL
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for FlashLight_Circuit\Design Rule Check - Main_PCB.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for FlashLight_Circuit\Design Rule Check - Side_PCB.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -1034,10 +1042,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=LLC.IntLib
+ComponentDesignItemID0=333-2UTC/S400-A6
+ComponentSymbolReference0=333-2UTC/S400-A6
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1051,6 +1065,31 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=Item Type
+ParameterUpdate3=1
+ParameterName4=JLCPCB Part Class
+ParameterUpdate4=1
+ParameterName5=LCSC Part Number
+ParameterUpdate5=1
+ParameterName6=Library Reference
+ParameterUpdate6=1
+ParameterName7=Manufacturer
+ParameterUpdate7=1
+ParameterName8=Manufacturer Part Number
+ParameterUpdate8=1
+ParameterName9=Package
+ParameterUpdate9=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=LED BEND
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
